@@ -1,0 +1,36 @@
+{
+  "name": "netlify-aws-lambda-serverless-app",
+  "version": "1.0.0",
+  "description": "Netlify AWS Lambda Github Users Serverless App",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "netlify-lambda": "^1.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "eslint": "^5.14.0"
+  },
+  "scripts": {
+    "lambda-serve:dev": "netlify-lambda --config webpack_dev.js serve functions",
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfgoto/netlify-aws-lambda-serverless-app.git"
+  },
+  "keywords": [
+    "Netlify",
+    "AWS",
+    "Lambda",
+    "Github",
+    "Serverless"
+  ],
+  "author": "Florian GOTO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfgoto/netlify-aws-lambda-serverless-app/issues"
+  },
+  "homepage": "https://github.com/nfgoto/netlify-aws-lambda-serverless-app#readme"
+}
