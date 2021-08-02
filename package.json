@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
-    "eslint": "^5.14.0"
+    "eslint": "^7.32.0"
   },
   "scripts": {
     "lambda-serve:dev": "netlify-lambda --config webpack_dev.js serve functions",
